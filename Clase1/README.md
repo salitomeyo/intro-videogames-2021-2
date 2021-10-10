@@ -33,7 +33,7 @@
 |jhfbeltranlo@unal.edu.co      |                       |
 |jbrandt@unal.edu.co           |                       |
 |jubuitrago@unal.edu.co        |                       |
-|jobustamantea@unal.edu.co     |     JoseDaniel959                  |
+|jobustamantea@unal.edu.co     |`JoseDaniel959`        |
 |jucadavidj@unal.edu.co        |                       |
 |dacaicedoe@unal.edu.co        |                       |
 |jcanor@unal.edu.co            |                       |
