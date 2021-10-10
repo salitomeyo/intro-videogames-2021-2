@@ -27,7 +27,7 @@
 |jarcilac@unal.edu.co          |                       |
 |saaristizabalgi@unal.edu.co   |                       |
 |jasprilla@unal.edu.co         |                       |
-|jdavendanoo@unal.edu.co       |                       |
+|jdavendanoo@unal.edu.co       |`JDavidAvendano`       |
 |elbedoyaga@unal.edu.co        |                       |
 |jhabedoyagr@unal.edu.co       |                       |
 |jhfbeltranlo@unal.edu.co      |                       |
