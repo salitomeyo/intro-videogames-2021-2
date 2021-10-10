@@ -10,7 +10,7 @@
 ### Descripción
 - Haga fork de este repositorio.
 - Edite este archivo desde su "copia"/fork.
-  - Agregue su nombre de usuario de GitHub en frente de su correo.
+  - Agregue su nombre de usuario de GitHub en frente de su [correo](#lista-de-correos).
   - Si su correo no esta, por favor agreguelo en la sección [Correos extras](#correos-extras).
 - Haga commit del cambio. Recuerde poner un mensaje al commit apropiado y con sentido.
 - Haga Pull Request (PR) del fork al repositorio original.
