@@ -24,7 +24,7 @@
 |jomalvarezsu@unal.edu.co      |                       |
 |ealzatez@unal.edu.co          |                       |
 |jmarboledat@unal.edu.co       |                       |
-|jarcilac@unal.edu.co          |                       |
+|jarcilac@unal.edu.co          | `JacobArcilaC`        |
 |saaristizabalgi@unal.edu.co   |                       |
 |jasprilla@unal.edu.co         |                       |
 |jdavendanoo@unal.edu.co       |                       |
