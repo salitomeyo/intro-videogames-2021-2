@@ -16,7 +16,7 @@
 - Haga Pull Request (PR) del fork al repositorio original.
 
 
-##Lista de Correos
+## Lista de Correos
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
