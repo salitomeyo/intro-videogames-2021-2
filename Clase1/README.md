@@ -20,7 +20,7 @@
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
-|saagudelore@unal.edu.co       |                       |
+|saagudelore@unal.edu.co       |saagudelore            |
 |jomalvarezsu@unal.edu.co      |                       |
 |ealzatez@unal.edu.co          |                       |
 |jmarboledat@unal.edu.co       |                       |
