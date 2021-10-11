@@ -81,8 +81,8 @@
 |seazambranogo@unal.edu.co     |                       |
 |juczapatama@unal.edu.co       |                       |
 
-
-## Correos extras
+           
+## Correos extras.
 En caso de que su correo no aparezca en la lista anterior, por favor agregarlo en la siguiente lista.
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
