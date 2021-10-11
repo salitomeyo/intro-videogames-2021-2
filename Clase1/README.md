@@ -67,7 +67,7 @@
 |dperezz@unal.edu.co           |                       |
 |cquirozm@unal.edu.co          |                       |
 |variosva@unal.edu.co          |                       |
-|kariverag@unal.edu.co         |                       |
+|kariverag@unal.edu.co         |      karenrivgi       |
 |juarojasbe@unal.edu.co        |                       |
 |jdruize@unal.edu.co           |                       |
 |aosalamancap@unal.edu.co      |                       |
