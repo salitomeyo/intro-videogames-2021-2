@@ -21,7 +21,7 @@
 |------------------------------|-----------------------|
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
 |saagudelore@unal.edu.co       |                       |
-|jomalvarezsu@unal.edu.co      |                       |
+|jomalvarezsu@unal.edu.co      |       SShady97        |
 |ealzatez@unal.edu.co          |                       |
 |jmarboledat@unal.edu.co       |                       |
 |jarcilac@unal.edu.co          |                       |
