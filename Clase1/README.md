@@ -62,7 +62,7 @@
 |jpmontoyap@unal.edu.co        |                       |
 |alnarvaezva@unal.edu.co       |                       |
 |roaortegaay@unal.edu.co       |                       |
-|anmosoriomo@unal.edu.co       |                       |
+|anmosoriomo@unal.edu.co       |ana-os-mo                       |
 |sepabonn@unal.edu.co          |                       |
 |dperezz@unal.edu.co           |                       |
 |cquirozm@unal.edu.co          |                       |
