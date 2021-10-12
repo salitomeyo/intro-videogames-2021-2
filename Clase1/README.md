@@ -23,7 +23,7 @@
 |saagudelore@unal.edu.co       |                       |
 |jomalvarezsu@unal.edu.co      |                       |
 |ealzatez@unal.edu.co          |                       |
-|jmarboledat@unal.edu.co       |'JohnTreeland'         |
+|jmarboledat@unal.edu.co       |JohnTreeland           |
 |jarcilac@unal.edu.co          |                       |
 |saaristizabalgi@unal.edu.co   |                       |
 |jasprilla@unal.edu.co         |                       |
