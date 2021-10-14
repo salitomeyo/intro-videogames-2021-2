@@ -28,7 +28,7 @@
 |saaristizabalgi@unal.edu.co   |                       |
 |jasprilla@unal.edu.co         |                       |
 |jdavendanoo@unal.edu.co       |                       |
-|elbedoyaga@unal.edu.co        |                       |
+|elbedoyaga@unal.edu.co        |    EliBedoya          |
 |jhabedoyagr@unal.edu.co       |                       |
 |jhfbeltranlo@unal.edu.co      |                       |
 |jbrandt@unal.edu.co           |                       |
