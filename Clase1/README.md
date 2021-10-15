@@ -58,7 +58,7 @@
 |marhernandezpa@unal.edu.co    |                       |
 |aljimenezza@unal.edu.co       |                       |
 |jledesmap@unal.edu.co         |                       |
-|amlizarazos@unal.edu.co       |                       |
+|amlizarazos@unal.edu.co       |AlejaLizarazos         |
 |jpmontoyap@unal.edu.co        |                       |
 |alnarvaezva@unal.edu.co       |                       |
 |roaortegaay@unal.edu.co       |                       |
