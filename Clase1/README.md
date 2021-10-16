@@ -79,7 +79,7 @@
 |hurrutiam@unal.edu.co         |                       |
 |crvilla@unal.edu.co           |                       |
 |seazambranogo@unal.edu.co     |                       |
-|juczapatama@unal.edu.co       |                       |
+|juczapatama@unal.edu.co       | juczapatama           |
 
 
 ## Correos extras
