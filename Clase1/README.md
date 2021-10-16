@@ -80,6 +80,7 @@
 |crvilla@unal.edu.co           |                       |
 |seazambranogo@unal.edu.co     |                       |
 |juczapatama@unal.edu.co       |                       |
+|mimorenov@unal.edu.co         |M1moreno               |
 
 
 ## Correos extras
