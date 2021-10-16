@@ -36,7 +36,7 @@
 |jobustamantea@unal.edu.co     |                       |
 |jucadavidj@unal.edu.co        |                       |
 |dacaicedoe@unal.edu.co        |                       |
-|jcanor@unal.edu.co            |                       |
+|jcanor@unal.edu.co            |   canojuanpa800       |
 |gacanasm@unal.edu.co          |                       |
 |sacastanoa@unal.edu.co        |                       |
 |jmcastillom@unal.edu.co       |                       |
