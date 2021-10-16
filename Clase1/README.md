@@ -80,7 +80,6 @@
 |crvilla@unal.edu.co           |                       |
 |seazambranogo@unal.edu.co     |                       |
 |juczapatama@unal.edu.co       |                       |
-|mimorenov@unal.edu.co         |M1moreno               |
 
 
 ## Correos extras
@@ -88,3 +87,4 @@ En caso de que su correo no aparezca en la lista anterior, por favor agregarlo e
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
+|mimorenov@unal.edu.co         |M1moreno               |
