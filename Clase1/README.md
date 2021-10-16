@@ -69,7 +69,7 @@
 |variosva@unal.edu.co          |                       |
 |kariverag@unal.edu.co         |                       |
 |juarojasbe@unal.edu.co        |                       |
-|jdruize@unal.edu.co           |                       |
+|jdruize@unal.edu.co           |juandr89               |
 |aosalamancap@unal.edu.co      |                       |
 |iseren@unal.edu.co            |                       |
 |jucsilvaar@unal.edu.co        |                       |
