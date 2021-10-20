@@ -86,6 +86,8 @@
 En caso de que su correo no aparezca en la lista anterior, por favor agregarlo en la siguiente lista.
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
+|`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
+|`jfcadavidr@unal.edu.co`      |`jcadavid`             |
 |jupgomezva@unal.edu.co        |PabloGomeez     |
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
 |jcirol@unaledu.co             |JCiroLo                |
