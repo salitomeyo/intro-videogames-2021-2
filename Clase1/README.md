@@ -20,14 +20,14 @@
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
-|saagudelore@unal.edu.co       |                       |
+|saagudelore@unal.edu.co       |saagudelore            |
 |jomalvarezsu@unal.edu.co      |                       |
 |ealzatez@unal.edu.co          |                       |
 |jmarboledat@unal.edu.co       |                       |
-|jarcilac@unal.edu.co          |                       |
+|jarcilac@unal.edu.co          | `JacobArcilaC`        |
 |saaristizabalgi@unal.edu.co   |                       |
 |jasprilla@unal.edu.co         |                       |
-|jdavendanoo@unal.edu.co       |                       |
+|jdavendanoo@unal.edu.co       |`JDavidAvendano`       |
 |elbedoyaga@unal.edu.co        |                       |
 |jhabedoyagr@unal.edu.co       |                       |
 |jhfbeltranlo@unal.edu.co      |                       |
@@ -57,18 +57,18 @@
 |judguzmanmo@unal.edu.co       |                       |
 |marhernandezpa@unal.edu.co    |                       |
 |aljimenezza@unal.edu.co       |                       |
-|jledesmap@unal.edu.co         |                       |
+|jledesmap@unal.edu.co         |JEROLPOA2              |
 |amlizarazos@unal.edu.co       |                       |
-|jpmontoyap@unal.edu.co        |                       |
+|jpmontoyap@unal.edu.co        |JuanMontoyaP           |
 |alnarvaezva@unal.edu.co       |                       |
 |roaortegaay@unal.edu.co       |                       |
-|anmosoriomo@unal.edu.co       |                       |
+|anmosoriomo@unal.edu.co       |ana-os-mo                       |
 |sepabonn@unal.edu.co          |                       |
 |dperezz@unal.edu.co           |                       |
 |cquirozm@unal.edu.co          |                       |
 |variosva@unal.edu.co          |                       |
 |kariverag@unal.edu.co         |                       |
-|juarojasbe@unal.edu.co        |                       |
+|juarojasbe@unal.edu.co        |JulianRojasBet         |
 |jdruize@unal.edu.co           |                       |
 |aosalamancap@unal.edu.co      |                       |
 |iseren@unal.edu.co            |                       |
@@ -81,8 +81,8 @@
 |seazambranogo@unal.edu.co     |                       |
 |juczapatama@unal.edu.co       |                       |
 
-
-## Correos extras
+           
+## Correos extras.
 En caso de que su correo no aparezca en la lista anterior, por favor agregarlo en la siguiente lista.
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
