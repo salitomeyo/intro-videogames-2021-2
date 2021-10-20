@@ -25,7 +25,7 @@
 |ealzatez@unal.edu.co          |`ElizAlzate`           |
 |jmarboledat@unal.edu.co       |JohnTreeland           |
 |jarcilac@unal.edu.co          | `JacobArcilaC`        |
-|saaristizabalgi@unal.edu.co   |                       |
+|saaristizabalgi@unal.edu.co   |salitomeyo             |
 |jasprilla@unal.edu.co         |                       |
 |jdavendanoo@unal.edu.co       |`JDavidAvendano`       |
 |elbedoyaga@unal.edu.co        |    EliBedoya          |
