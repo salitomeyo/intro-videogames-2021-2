@@ -56,7 +56,7 @@
 |dgraciag@unal.edu.co          |                       |
 |judguzmanmo@unal.edu.co       |                       |
 |marhernandezpa@unal.edu.co    |                       |
-|aljimenezza@unal.edu.co       |                       |
+|aljimenezza@unal.edu.co       |aljimenezza            |
 |jledesmap@unal.edu.co         |JEROLPOA2              |
 |amlizarazos@unal.edu.co       |                       |
 |jpmontoyap@unal.edu.co        |JuanMontoyaP           |
