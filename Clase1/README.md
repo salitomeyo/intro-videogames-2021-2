@@ -45,7 +45,7 @@
 |dsespindolac@unal.edu.co      |                       |
 |keversy@unal.edu.co           |                       |
 |mifonsecaa@unal.edu.co        |                       |
-|wgarciab@unal.edu.co          |                       |
+|wgarciab@unal.edu.co          |wgarciab               |
 |dgarciabl@unal.edu.co         | 'Dgarciabl'           |
 |jugarciacar@unal.edu.co       |                       |
 |sugiraldobe@unal.edu.co       |                       |
