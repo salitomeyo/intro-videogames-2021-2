@@ -49,7 +49,7 @@
 |dgarciabl@unal.edu.co         | 'Dgarciabl'           |
 |jugarciacar@unal.edu.co       |                       |
 |sugiraldobe@unal.edu.co       |                       |
-|sagiraldogu@unal.edu.co       |                       |
+|sagiraldogu@unal.edu.co       |  Sagiraldogu          |
 |naggomezart@unal.edu.co       |                       |
 |lugomezlo@unal.edu.co         |                       |
 |juegonzalezfr@unal.edu.co     |     JEGF9811          |
