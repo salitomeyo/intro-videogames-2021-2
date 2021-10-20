@@ -87,5 +87,6 @@ En caso de que su correo no aparezca en la lista anterior, por favor agregarlo e
 |Correo                        |Git user               |
 |------------------------------|-----------------------|
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
+|jupachecor@unal.edu.co        | Azgalor2712           |
 |`caospinamu@unal.edu.co`      |`Cesar-580`            |
 |`lmarenast@unal.edu.co`       |`lmarenast`            |
