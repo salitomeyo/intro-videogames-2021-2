@@ -66,7 +66,7 @@
 |sepabonn@unal.edu.co          |                       |
 |dperezz@unal.edu.co           | Deipzza               |
 |cquirozm@unal.edu.co          |                       |
-|variosva@unal.edu.co          |                       |
+|variosva@unal.edu.co          | variosva07            |
 |kariverag@unal.edu.co         |                       |
 |juarojasbe@unal.edu.co        |JulianRojasBet         |
 |jdruize@unal.edu.co           |                       |
