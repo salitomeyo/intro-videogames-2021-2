@@ -72,7 +72,7 @@
 |jdruize@unal.edu.co           |                       |
 |aosalamancap@unal.edu.co      |                       |
 |iseren@unal.edu.co            |                       |
-|jucsilvaar@unal.edu.co        |                       |
+|jucsilvaar@unal.edu.co        |jucsilvaar             |
 |lusuarezb@unal.edu.co         |                       |
 |cctiquey@unal.edu.co          |                       |
 |rtorrest@unal.edu.co          |                       |
