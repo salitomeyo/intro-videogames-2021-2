@@ -34,7 +34,7 @@
 |jbrandt@unal.edu.co           |                       |
 |jubuitrago@unal.edu.co        |                       |
 |jobustamantea@unal.edu.co     |                       |
-|jucadavidj@unal.edu.co        |                       |
+|jucadavidj@unal.edu.co        |jucadavid              |
 |dacaicedoe@unal.edu.co        |                       |
 |jcanor@unal.edu.co            |   canojuanpa800       |
 |gacanasm@unal.edu.co          |                       |
