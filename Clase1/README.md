@@ -46,7 +46,7 @@
 |keversy@unal.edu.co           |                       |
 |mifonsecaa@unal.edu.co        |                       |
 |wgarciab@unal.edu.co          |                       |
-|dgarciabl@unal.edu.co         |                       |
+|dgarciabl@unal.edu.co         | 'Dgarciabl'           |
 |jugarciacar@unal.edu.co       |                       |
 |sugiraldobe@unal.edu.co       |                       |
 |sagiraldogu@unal.edu.co       |                       |
