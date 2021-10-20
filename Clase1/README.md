@@ -22,7 +22,7 @@
 |`ejemplo@unal.edu.co`         |`megaDevGame_0001`     |
 |saagudelore@unal.edu.co       |saagudelore            |
 |jomalvarezsu@unal.edu.co      |                       |
-|ealzatez@unal.edu.co          |                       |
+|ealzatez@unal.edu.co          |`ElizAlzate`           |
 |jmarboledat@unal.edu.co       |                       |
 |jarcilac@unal.edu.co          | `JacobArcilaC`        |
 |saaristizabalgi@unal.edu.co   |                       |
