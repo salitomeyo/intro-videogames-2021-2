@@ -68,7 +68,7 @@
 |cquirozm@unal.edu.co          |                       |
 |variosva@unal.edu.co          |                       |
 |kariverag@unal.edu.co         |                       |
-|juarojasbe@unal.edu.co        |                       |
+|juarojasbe@unal.edu.co        |JulianRojasBet         |
 |jdruize@unal.edu.co           |                       |
 |aosalamancap@unal.edu.co      |                       |
 |iseren@unal.edu.co            |                       |
