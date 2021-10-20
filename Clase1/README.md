@@ -78,7 +78,7 @@
 |rtorrest@unal.edu.co          |                       |
 |hurrutiam@unal.edu.co         |                       |
 |crvilla@unal.edu.co           | CrVilla               |
-|seazambranogo@unal.edu.co     |                       |
+|seazambranogo@unal.edu.co     |szambranog             |
 |juczapatama@unal.edu.co       | juczapatama           |
 
            
