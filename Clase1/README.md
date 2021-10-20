@@ -73,7 +73,7 @@
 |aosalamancap@unal.edu.co      |                       |
 |iseren@unal.edu.co            |                       |
 |jucsilvaar@unal.edu.co        |jucsilvaar             |
-|lusuarezb@unal.edu.co         |                       |
+|lusuarezb@unal.edu.co         | Lusuarezb             |
 |cctiquey@unal.edu.co          |                       |
 |rtorrest@unal.edu.co          |                       |
 |hurrutiam@unal.edu.co         |                       |
