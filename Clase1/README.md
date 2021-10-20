@@ -60,7 +60,7 @@
 |jledesmap@unal.edu.co         |JEROLPOA2              |
 |amlizarazos@unal.edu.co       |AlejaLizarazos         |
 |jpmontoyap@unal.edu.co        |JuanMontoyaP           |
-|alnarvaezva@unal.edu.co       |                       |
+|alnarvaezva@unal.edu.co       |Biertrink3r            |
 |roaortegaay@unal.edu.co       |                       |
 |anmosoriomo@unal.edu.co       |ana-os-mo                       |
 |sepabonn@unal.edu.co          |                       |
