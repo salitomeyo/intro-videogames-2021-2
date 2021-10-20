@@ -52,7 +52,7 @@
 |sagiraldogu@unal.edu.co       |                       |
 |naggomezart@unal.edu.co       |                       |
 |lugomezlo@unal.edu.co         |                       |
-|juegonzalezfr@unal.edu.co     |                       |
+|juegonzalezfr@unal.edu.co     |     JEGF9811          |
 |dgraciag@unal.edu.co          |                       |
 |judguzmanmo@unal.edu.co       |                       |
 |marhernandezpa@unal.edu.co    |                       |
