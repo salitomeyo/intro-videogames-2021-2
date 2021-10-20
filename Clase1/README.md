@@ -64,7 +64,7 @@
 |roaortegaay@unal.edu.co       |                       |
 |anmosoriomo@unal.edu.co       |ana-os-mo                       |
 |sepabonn@unal.edu.co          |                       |
-|dperezz@unal.edu.co           |                       |
+|dperezz@unal.edu.co           | Deipzza               |
 |cquirozm@unal.edu.co          |                       |
 |variosva@unal.edu.co          |                       |
 |kariverag@unal.edu.co         |                       |
