@@ -31,7 +31,7 @@
 |jdavendanoo@unal.edu.co       |JDavidAvendano         |
 |elbedoyaga@unal.edu.co        |EliBedoya              |
 |jubuitrago@unal.edu.co        |                       |
-|jobustamantea@unal.edu.co     |                       |
+|jobustamantea@unal.edu.co     |`JoseDaniel959`        |
 |jucadavidj@unal.edu.co        |jucadavid              |
 |jfcadavidr@unal.edu.co        |jcadavid               |
 |dacaicedoe@unal.edu.co        |                       |
