@@ -27,7 +27,7 @@
 |jarcilac@unal.edu.co          |JacobArcilaC           |
 |lmarenast@unal.edu.co         |lmarenast              |
 |saaristizabalgi@unal.edu.co   |salitomeyo             |
-|jasprilla@unal.edu.co         |                       |
+|jasprilla@unal.edu.co         |jdaar                  |
 |jdavendanoo@unal.edu.co       |JDavidAvendano         |
 |elbedoyaga@unal.edu.co        |EliBedoya              |
 |jubuitrago@unal.edu.co        |                       |
