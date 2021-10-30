@@ -3,10 +3,8 @@ using UnityEngine;
 
 public class OrbitGameObject : MonoBehaviour
 {
-    [SerializeField] private float m_RadiusMin = 5;
-    [SerializeField] private float m_RadiusMax = 10;
-    [SerializeField] private float m_SpeedMin = 0.5f;
-    [SerializeField] private float m_SpeedMax = 1f;
+    [SerializeField] private Vector2 m_RadiusRange = new Vector2(5f, 10f);
+    [SerializeField] private Vector2 m_SpeedRange = new Vector2(0.5f, 1f);
     [SerializeField] private int m_Count = 10;
     [SerializeField] private Mesh m_Mesh;
     [SerializeField] private Material m_Material;
@@ -37,12 +35,15 @@ public class OrbitGameObject : MonoBehaviour
             var meshRenderer = asteroid.AddComponent<MeshRenderer>();
             meshRenderer.material = m_Material;
 
+            var rotation = Random.rotation;
+            asteroidTransform.rotation = rotation;
+
             var asteroidDescription = new AsteroidDescription
             {
                 AsteroidGO = asteroid,
-                Radius = Random.Range(m_RadiusMin, m_RadiusMax),
+                Radius = Random.value,
                 Angle0 = Random.Range(0, 2 * Mathf.PI),
-                Speed = Random.Range(m_SpeedMin, m_SpeedMax),
+                Speed = Random.value,
             };
 
             m_Asteroids.Add(asteroidDescription);
@@ -57,12 +58,25 @@ public class OrbitGameObject : MonoBehaviour
         for (int i = 0; i < m_Asteroids.Count; i++)
         {
             var asteroidDescription = m_Asteroids[i];
-            var angle = asteroidDescription.Speed * m_Time + asteroidDescription.Angle0;
+            var speed = Mathf.Lerp(m_SpeedRange.x, m_SpeedRange.y, asteroidDescription.Speed);
+            var angle = speed * m_Time + asteroidDescription.Angle0;
+            var radius = Mathf.Lerp(m_RadiusRange.x, m_RadiusRange.y, asteroidDescription.Radius);
             var position = new Vector3();
-            position.x = asteroidDescription.Radius * Mathf.Cos(angle);
+
+            position.x = radius * Mathf.Cos(angle);
             position.y = 0;
-            position.z = asteroidDescription.Radius * Mathf.Sin(angle);
+            position.z = radius * Mathf.Sin(angle);
             asteroidDescription.AsteroidGO.transform.position = position;
         }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        // // Display the explosion radius when selected
+        // Gizmos.color = new Color(1, 1, 0, 0.75F);
+        // Gizmos.DrawSphere(transform.position, explosionRadius);
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, m_RadiusRange.x);
+        Gizmos.DrawWireSphere(transform.position, m_RadiusRange.y);
     }
 }
