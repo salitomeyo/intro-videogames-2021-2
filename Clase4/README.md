@@ -19,17 +19,18 @@
 
 ### Descripción
 **Parte 1: Rotación cuando no hay input**
-- Re-activar que el player mire en la dirección del movimiento: En el script Player, descomentar la [linea 34](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L34) y commentar la [linea 45](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L45).
+- Re-activar rotación del player en la misma dirección del movimiento: 
+  - En el script Player: descomentar la [linea 34](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L34) y commentar la [linea 45](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L45).
 - Agregar la lógica necesaria para que, al no oprimir Input de movimiento, el Player no regrese a la rotación por defecto. En cambio, debe quedar con la ultima rotación que se aplico mientras aun se estaba movimiendo.
 
 **Parte 2: Character Controller**
-- Duplique la escena `Shooter`. Nombre la nueva escena `CharacterControllerMovement`.
-  - Use `Ctrl + D` para duplicar la escena. Esto para asegurar que cualquier referencia externa sea copiada también.
-- Cree un nuevo script llamado `PlayerCharMovementController` en la carpeta correspiondiente.
-- En la escena `CharacterControllerMovement`, en el objeto `Player`:
-  - Remueva el componente `Rigidbody`. En su lugar añada el componente `CharacterController`.
-  - Remuena el componente `PlayerMovementController`. En su lugar añada el componente `PlayerCharMovementController`.
-- Cree el codigo necesario para que el script `PlayerCharMovementController` ejecute el movimiento del jugador usando `CharacterController` en vez de `Rigidbody`.
+- Duplique la escena `Shooter`. La nueva escena debe llamarse `CharacterControllerMovement`.
+  - Use `Ctrl + D` para duplicar la escena. Esto para asegurar que cualquier referencia externa sea dupliquen también.
+- Cree un nuevo script llamado `PlayerCharMovementController`. Asegúrese de crearlo en la carpeta correspondiente.
+- En la escena `CharacterControllerMovement`, ubique el objeto `Player` y efectue lo siguiente:
+  - Remueva el componente `Rigidbody`. En su lugar añada el componente `CharacterController`  (propio de Unity).
+  - Remuena el componente `PlayerMovementController`. En su lugar añada el componente `PlayerCharMovementController` (el script que creó anteriormente).
+- Cree el código necesario para que el script `PlayerCharMovementController` ejecute el movimiento del jugador usando `CharacterController` en vez de `Rigidbody`.
   - En el script `Player` **SOLO** debe cambiar el tipo de la variable `_movementController` ([linea 12](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L12)). Esto implica, que el script `PlayerCharMovementController` debe tener los métodos `Move` y `RotateTo`.
 - Note las diferencias entre trabajar con `Rigidbody` y `CharacterController`. Por ejemplo: que pasa con las pequeñas plataformas amarillas que hay en la escena? Como interactuan? Que pasa cuando el Player sale de las plataformas?
 
