@@ -39,16 +39,16 @@
 
 ### Entrega
 - Crear una branch a partir del branch `session/session-4`.
-  - El nombre de la nueva branch debe tener el siguiente formato: `student/[usuario-unal]/session-2`
+  - El nombre de la nueva branch debe tener el siguiente formato: `student/[usuario-unal]/session-4`
 ```
- Ejemplo: Si su correo es pedrito@unal.edu.co, la rama para hacer la entrega de la clase 2 debe ser `student/pedrito/session-2`.
+ Ejemplo: Si su correo es pedrito@unal.edu.co, la rama para hacer la entrega de la clase 4 debe ser `student/pedrito/session-4`.
 ```
 - Hacer los commits necesarios para efectuar la solución al taller.
-- Hacer un Pull Request de su branch (`student/[usuario-unal]/session-2`)
+- Hacer un Pull Request de su branch (`student/[usuario-unal]/session-4`)
   - La branch target del PR debe ser `session/session-4`.
-  - El nombre del PR debe seguir el formato `Solución Taller 2 by [usuario-unal]`. 
+  - El nombre del PR debe seguir el formato `Solución Taller 4 by [usuario-unal]`. 
 ```
- Ejemplo: Si su correo es pedrito@unal.edu.co, el título del PR debe ser: `Solución Taller 2 by pedrito`.
+ Ejemplo: Si su correo es pedrito@unal.edu.co, el título del PR debe ser: `Solución Taller 4 by pedrito`.
 ```
   - La descripción del PR puede ser usada para dejar notas, aclaraciones, preguntas, etc. También se puede dejar vacio.
 
