@@ -3,7 +3,9 @@
 
 ## Contenido
 - [Clase 1: Introducción](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/tree/main/Clase1)
-- [Clase 2: Basic movement](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/tree/main/Clase2)
+- [Clase 2: Intro al desarrollo en unity](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/tree/main/Clase2)
+- [Clase 3: Intro a físicas](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/tree/main/Clase3)
+- [Clase 4: Movimiento básico](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/tree/main/Clase4)
 
 
 ## Disclaimer
