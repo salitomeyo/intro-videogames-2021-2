@@ -30,9 +30,10 @@ public class Player : MonoBehaviour
         Vector3 targetMovementDirection = new Vector3(_movementInput.x, 0, _movementInput.y);
         targetMovementDirection.Normalize();
         
-        //Rotation: look at movement direction
-        //_targetRotation = Quaternion.LookRotation(targetMovementDirection);
-        
+        if (Input.anyKey) {
+            _targetRotation = Quaternion.LookRotation(targetMovementDirection);
+
+        }
         
         _movementController.Move( targetMovementDirection * _speed );
         _movementController.RotateTo( _targetRotation, _rotationSpeed );
@@ -42,7 +43,7 @@ public class Player : MonoBehaviour
     {
         _movementInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         //Process rotation
-        CalculateTargetRotation();
+        //CalculateTargetRotation();
     }
 
     void CalculateTargetRotation()
