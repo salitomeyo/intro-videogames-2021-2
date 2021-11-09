@@ -34,6 +34,14 @@
   - En el script `Player` **SOLO** debe cambiar el tipo de la variable `_movementController` ([linea 12](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L12)). Esto implica, que el script `PlayerCharMovementController` debe tener los métodos `Move` y `RotateTo`.
 - Note las diferencias entre trabajar con `Rigidbody` y `CharacterController`. Por ejemplo: que pasa con las pequeñas plataformas amarillas que hay en la escena? Como interactuan? Que pasa cuando el Player sale de las plataformas?
 
+#### Rigidbody
+
+Tiene colisiones, el player en primera instancia se mantiene a la altura de la plataforma azul, y colisiona con las plataformas elevadas amarrillas, pero al seguir colisionando la altura del personaje se va incrementando, cuando baja de las plataformas amarillas vuelve a su altura original (altura del piso), al salir de las plataformas el player va descendiendo lentamente a lo que parece una velocidad fija.
+
+#### CharacterController
+
+Tiene colisiones, el player en primera instancia colisiona con las plataformas elevadas amarrillas, pero al seguir colisionando la altura del personaje va subiendo, la altura parece nunca descender esto se puede deber a que no se implementaron los metodos para controlar la gravedad, por lo que el player "vuela" a una altura determinada hasta que una colision lo hace subir de altura. El Character controler contiene varios parametros por ejemplo una altura diferente a la altura del player que hace parecer que el personaje flotara a traves del mundo.
+
 **Reto (Opcional)**
 - Cree las interfaces o clases abstractas que considere necesarias para que el script `Player` funcione indiferentemente de cual script de movimiento tenga, es decir, que no haya que especificar explicitamente el tipo de la variable `_movementController` ([linea 12](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/main/Unity/intro-videojuegos-app-2021-2/Assets/Scr/Player/Player.cs#L12)), en cambio usar un nivel más alto de abstracción.
 
