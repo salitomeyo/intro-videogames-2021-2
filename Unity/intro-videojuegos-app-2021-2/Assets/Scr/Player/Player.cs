@@ -46,7 +46,7 @@ public class Player : MonoBehaviour
         }
         else
         {
-            //Parar Dispara
+            _gunController.OnTriggerRelease();
         }
     }
 

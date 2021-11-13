@@ -4,12 +4,31 @@ using UnityEngine;
 
 public class Gun : MonoBehaviour
 {
+    [SerializeField]
+    private float _fireRate = 0.1f;
+    
     [SerializeField] 
     private Transform _projectileSpawnPoint;
     
-    [Header("Testing...")] 
-    public Projectile projectilePrefab;
+    private Projectile projectilePrefab;
 
+    private float _nextShootAt = 0;
+        
+    public void OnTriggerHold()
+    {
+        if (Time.time > _nextShootAt)
+        {
+            _nextShootAt = Time.time + _fireRate;
+            Shoot();
+        }
+    }
+
+    public void OnTriggerRelease()
+    {
+        //
+    }
+    
+    
     public void Shoot()
     {
         //Debug.LogError("Piu-Piu -> ->");
@@ -17,8 +36,9 @@ public class Gun : MonoBehaviour
         {
             projectilePrefab = Resources.Load<Projectile>("Prefabs/Projectile");
         }
-
-        Quaternion projectileRotation = Quaternion.LookRotation(_projectileSpawnPoint.forward);
-        Instantiate(projectilePrefab, _projectileSpawnPoint.position, projectileRotation);
+        
+        Projectile projectileObject = Instantiate(projectilePrefab);
+        projectileObject.transform.position = _projectileSpawnPoint.position;
+        projectileObject.transform.rotation = Quaternion.LookRotation(_projectileSpawnPoint.forward);;
     }
 }
