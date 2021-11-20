@@ -10,7 +10,16 @@ public enum AgentState
 
 public class MovableAgent : MonoBehaviour
 {
-    public AgentState State { get; private set; }
+    public AgentState State
+    {
+        get
+        {
+            if (m_NavMeshAgent.remainingDistance <= m_NavMeshAgent.stoppingDistance && m_NavMeshAgent.velocity.sqrMagnitude == 0)
+                return AgentState.Idle;
+
+            return AgentState.Moving;
+        }
+    }
 
     private NavMeshAgent m_NavMeshAgent;
     private Vector3 m_TargetPosition;
@@ -25,17 +34,11 @@ public class MovableAgent : MonoBehaviour
 
     void Update()
     {
-        if (State == AgentState.Moving)
+        if (m_OnArrive != null)
         {
-            var distance = Vector3.Distance(transform.position, m_TargetPosition);
-
-            if (distance <= 2f)
+            if (!m_NavMeshAgent.pathPending && State == AgentState.Idle)
             {
-                State = AgentState.Idle;
-                if (m_OnArrive != null)
-                {
-                    m_OnArrive();
-                }
+                m_OnArrive();
                 m_OnArrive = null;
             }
         }
@@ -45,7 +48,6 @@ public class MovableAgent : MonoBehaviour
     {
         m_OnArrive = onArrive;
         m_TargetPosition = position;
-        State = AgentState.Moving;
         m_NavMeshAgent.SetDestination(position);
     }
 }
