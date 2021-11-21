@@ -15,7 +15,7 @@
 
 ### Descripción
 **Parte 1: Chease solo cuando el playe resta al frente**
-- En el script `AIAgent`, actualizar la función `IsLookingTarget` ([AIAgent.43](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIAgent.cs#L43)) para que devuelva `true` solo cuando el target este en frente del enemigo. Hint: usar producto cruz (Dot product)).
+- En el script `AIAgent`, actualizar la función `IsLookingTarget` ([AIAgent.43](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIAgent.cs#L43)) para que devuelva `true` solo cuando el target este en frente del enemigo. Hint: usar producto punto (Dot product)).
   - Note que el script `AIIdleState` ya hace uso de esta función `IsLookingTarget` ([AIIdleState.Update](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/States/AIIdleState.cs#L29)).
     ![Taller Parte 1](./IdleToChase.png "Taller Parte 1")
     
@@ -32,7 +32,7 @@
   - Se creó el script `AIPatrolState` ([AIPatrolState.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/States/AIPatrolState.cs#L1)).
   - Se agregó el valor `Patrol` al enum `AIStateID` ([AIState.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIState.cs#L6)).
   - Este estado ya esta siendo agregado al `stateMachine` de nuestro enemigo (revisar [AIAgent.Start](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIAgent.cs#L32)).
-- Note que el enemigo tiene un nuevo componente llamado `PathContainer`([PathContainer.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/PathContainer.cs#L5)) que contiene los puntos en la escena que conforman el path a recorrer.
+- Note que el enemigo tiene un nuevo componente llamado `PathContainer`([PathContainer.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/PathContainer.cs#L5)) que contiene los puntos conforman el path a recorrer. Los puntos son asignados en la escena a traves del inspector.
   - Utilice este componente para obtener el siguiente punto del camino al que debe ir.
   ![Taller Parte 2](./PathContainer.png "Taller Parte 2")
   
