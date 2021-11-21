@@ -15,22 +15,22 @@
 
 ### Descripción
 **Parte 1: Chease solo cuando el playe resta al frente**
-- En el script `AIAgent`, actualizar la función `IsLookingTarget` para que devuelva `true` solo cuando el target este en frente del enemigo. Hint: usar producto cruz (Dot product)).
-  - Note que el script `AIIdleState` ya hace uso de esta función `IsLookingTarget`.
-  
+- En el script `AIAgent`, actualizar la función `IsLookingTarget` ([AIAgent.43](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIAgent.cs#L43)) para que devuelva `true` solo cuando el target este en frente del enemigo. Hint: usar producto cruz (Dot product)).
+  - Note que el script `AIIdleState` ya hace uso de esta función `IsLookingTarget` ([AIIdleState.Update](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/States/AIIdleState.cs#L29)).
+    ![Taller Parte 1](./IdleToChase.jpg?raw=true "Taller Parte 1")
 **Reto (Opcional)**
 - Hacer que la función `IsLookingTarget` devuelva true si el target esta en cono de visión.
 
 **Parte 2: Character Controller**
-- Implemente el estado de `Patrol`, es decir, se recorre un camino de puntos en secuencia.
-- Agregue un timer al estado de `Idle` para que cambia al estado de `Patrol` despues de X segundos.
+- Implemente el estado de `Patrol`: recorrer un una secuencia de puntos en orden.
+- Agregue un timer al estado `Idle` ([AIIdleState.19](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/States/AIIdleState.cs#L19)) para que, despues de X segundos, cambia al estado de `Patrol`.
 
 **Anotaciones**: Lo siguiente ya existe en el código. No tiene que crear nada de esto, solo debe implementar la lógica del estado `Patrol`.
 - Note que hay un nuevo estado llamado Patrol:
-  - Se creó el script `AIPatrolState`.
-  - Se agregó el valor `Patrol` al enum `AIStateID`.
-  - Este estado ya se argega al `stateMachine` de nuestro enemigo (revisar `AIAgent.Start`).
-- Note que el enemigo tiene un nuevo componente llamado `PathContainer` que contiene los puntos en la escena que conforman el path a recorrer.
+  - Se creó el script `AIPatrolState` ([AIPatrolState.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/States/AIPatrolState.cs#L1)).
+  - Se agregó el valor `Patrol` al enum `AIStateID` ([AIState.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIState.cs#L6)).
+  - Este estado ya esta siendo agregado al `stateMachine` de nuestro enemigo (revisar [AIAgent.Start](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIAgent.cs#L32)).
+- Note que el enemigo tiene un nuevo componente llamado `PathContainer`([PathContainer.cs](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/PathContainer.cs#L5)) que contiene los puntos en la escena que conforman el path a recorrer.
   - Utilice este componente para obtener el siguiente punto del camino al que debe ir.
 
   

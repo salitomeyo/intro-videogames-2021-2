@@ -12,5 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cd09a170eb932444a9f065f4931db29, type: 3}
   m_Name: default_ai_config
   m_EditorClassIdentifier: 
-  detectRange: 5
+  initialState: 0
+  detectionRange: 5
+  pathfindingMinDistanceToRefresh: 1
   pathfindingRefreshTime: 0.5
+  attackRange: 1
+  attackDuration: 1
