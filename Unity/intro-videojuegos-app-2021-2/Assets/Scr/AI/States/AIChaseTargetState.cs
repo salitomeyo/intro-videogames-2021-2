@@ -25,21 +25,30 @@ public class AIChaseTargetState : AIState
         _timerToRefresh -= Time.deltaTime;
 
         Vector3 directionToTarget = agent.Target.position - agent.transform.position;
+        directionToTarget.y = 0;
+
+        float sqrDistanceToPlayer = directionToTarget.sqrMagnitude;
+        
         if (_timerToRefresh < 0f)
         {
-            
-            agent.MovableAgent.GoTo(agent.Target.position - directionToTarget.normalized * 0.75f,
-                () =>
+
+            //If is to close to the target, we don't update the path
+            if (sqrDistanceToPlayer > agent.AIConfig.pathfindingMinDistanceToRefresh * agent.AIConfig.pathfindingMinDistanceToRefresh)
+            {
+                agent.MovableAgent.GoTo(agent.Target.position - directionToTarget.normalized * 0.75f,
+                    () =>
                     {
                         //Do something...
                         OnArrive(agent);
                     }
                 );
-            
+            }
+
             _timerToRefresh = agent.AIConfig.pathfindingRefreshTime;
         }
-
-        if (directionToTarget.magnitude < agent.AIConfig.attackRange)
+        
+        //If close enough -> Attack
+        if (sqrDistanceToPlayer < agent.AIConfig.attackRange * agent.AIConfig.attackRange)
         {
             agent.StateMachine.ChangeState(AIStateID.Attack);
         }
@@ -48,6 +57,8 @@ public class AIChaseTargetState : AIState
 
     public void Exit(AIAgent agent)
     {
+        //Make sure to stop the NavMesh agent
+        agent.MovableAgent.Stop();
     }
 
     private void OnArrive(AIAgent agent)
