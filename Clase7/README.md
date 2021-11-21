@@ -18,6 +18,7 @@
 - En el script `AIAgent`, actualizar la función `IsLookingTarget` ([AIAgent.43](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/AIAgent.cs#L43)) para que devuelva `true` solo cuando el target este en frente del enemigo. Hint: usar producto cruz (Dot product)).
   - Note que el script `AIIdleState` ya hace uso de esta función `IsLookingTarget` ([AIIdleState.Update](https://github.com/UNAL-IntroVideojuegos-2021-2/intro-videogames-2021-2/blob/093764511582c4ccf19f6ce3c845461c02f6767c/Unity/intro-videojuegos-app-2021-2/Assets/Scr/AI/States/AIIdleState.cs#L29)).
     ![Taller Parte 1](./IdleToChase.png "Taller Parte 1")
+    
 **Reto (Opcional)**
 - Hacer que la función `IsLookingTarget` devuelva true si el target esta en cono de visión.
   ![Taller Reto](./IdleToChase_Cone.png "Taller Reto")
