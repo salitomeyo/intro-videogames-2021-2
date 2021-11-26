@@ -11,7 +11,7 @@
 ## Taller
 
 ### Fecha de entrega
-> Viernes 26 de Noviembre - 11:59 pm (media noche del viernes).
+> Sábado 27 de Noviembre - 11:59 pm (media noche del sábado).
 
 ### Descripción
 **Parte 1: Chease solo cuando el playe resta al frente**
