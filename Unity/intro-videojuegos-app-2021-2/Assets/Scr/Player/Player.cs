@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public delegate void PlayerTakeHitAction(int damage, int currentHealth);
+    public static event PlayerTakeHitAction OnPlayerTakeHit;
+    
     [SerializeField]
     private float _speed = 6.5f;
     [SerializeField]
@@ -27,6 +30,7 @@ public class Player : MonoBehaviour
         _gunController = GetComponent<GunController>();
         _damageable = GetComponent<IDamageable>();
 
+        _damageable.OnTakeHit += OnTakeHit;
         _damageable.OnDeath += OnDeath;
 
         _cam = Camera.main;
@@ -37,7 +41,8 @@ public class Player : MonoBehaviour
     {
         if (_damageable != null)
         {
-            _damageable.OnDeath += OnDeath;
+            _damageable.OnTakeHit -= OnTakeHit;
+            _damageable.OnDeath -= OnDeath;
         }
     }
 
@@ -108,6 +113,11 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnTakeHit(int damage)
+    {
+        //TODO: Add VFX!!!!!!
+        OnPlayerTakeHit?.Invoke(damage, _damageable.CurrentHealth);
+    }
     private void OnDeath()
     {
         Debug.LogError("Player death!!!");
