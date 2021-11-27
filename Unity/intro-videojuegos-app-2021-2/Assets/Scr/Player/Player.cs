@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,6 +12,7 @@ public class Player : MonoBehaviour
     
     private PlayerMovementController _movementController;
     private GunController _gunController;
+    private IDamageable _damageable;
 
     private Camera _cam;
     private Plane _worldPlane;
@@ -23,12 +25,29 @@ public class Player : MonoBehaviour
     {
         _movementController = GetComponent<PlayerMovementController>();
         _gunController = GetComponent<GunController>();
+        _damageable = GetComponent<IDamageable>();
+
+        _damageable.OnDeath += OnDeath;
+
         _cam = Camera.main;
         _worldPlane = new Plane(Vector3.up, 0);
     }
-    
+
+    private void OnDestroy()
+    {
+        if (_damageable != null)
+        {
+            _damageable.OnDeath += OnDeath;
+        }
+    }
+
     void Update()
     {
+        if (_damageable.IsDead)
+        {
+            return;
+        }
+        
         ProcessInputs();
         
         //Movement
@@ -87,5 +106,10 @@ public class Player : MonoBehaviour
             Vector3 dir = (pointHit - transform.position).normalized;
             _targetRotation = Quaternion.LookRotation(dir);
         }
+    }
+
+    private void OnDeath()
+    {
+        Debug.LogError("Player death!!!");
     }
 }

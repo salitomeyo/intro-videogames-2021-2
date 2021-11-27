@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,7 @@ public class AIAgent : MonoBehaviour
     private MovableAgent _movableAgent;
     private AIStateMachine _stateMachine;
     private PathContainer _pathContainer;
+    private IDamageable _damageableEntity;
 
     public Transform Target => _player;
     public AIConfig AIConfig => _aiConfig;
@@ -23,9 +25,11 @@ public class AIAgent : MonoBehaviour
     {
         _movableAgent = GetComponent<MovableAgent>();
         _pathContainer = GetComponent<PathContainer>();
+        _damageableEntity = GetComponent<IDamageable>();
+        
+        _damageableEntity.OnDeath += OnDeath;
         
         _stateMachine = new AIStateMachine(this);
-        
         _stateMachine.AddState(new AIIdleState());
         _stateMachine.AddState(new AIChaseTargetState());
         _stateMachine.AddState(new AIAttackState());
@@ -34,14 +38,36 @@ public class AIAgent : MonoBehaviour
         _stateMachine.ChangeState(_aiConfig.initialState);
     }
 
+    private void OnDestroy()
+    {
+        if (_damageableEntity != null)
+        {
+            _damageableEntity.OnDeath -= OnDeath;
+        }
+    }
 
     void Update()
     {
+        if (_damageableEntity.IsDead)
+        {
+            return;
+        }
+        
         _stateMachine.Update();
     }
     
     public bool IsLookingTarget()
     {
         return true;
+    }
+
+    private void OnDeath()
+    {
+        Debug.LogError("Stop enemy systems....");
+
+        _stateMachine.Stop();
+        _movableAgent.Stop();
+        
+        gameObject.SetActive(false);
     }
 }

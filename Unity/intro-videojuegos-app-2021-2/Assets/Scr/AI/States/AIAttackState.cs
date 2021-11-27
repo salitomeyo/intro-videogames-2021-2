@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AIAttackState : AIState
@@ -13,7 +11,11 @@ public class AIAttackState : AIState
 
     public void Enter(AIAgent agent)
     {
-        Debug.LogError("Attacking to player!!!!!");
+        if (agent.Target.TryGetComponent(out IDamageable target))
+        {
+            target.TakeHit(1, agent.Target.position, agent.transform.forward);
+        }
+        
         _timer = agent.AIConfig.attackDuration;
     }
 
